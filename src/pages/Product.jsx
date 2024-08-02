@@ -5,7 +5,9 @@ import { FaFacebook } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaLinkedin } from "react-icons/fa";
 import { useState } from "react";
-import Header from "../components/Header";
+import { CiSearch } from "react-icons/ci";
+import { FaHeart, FaUserEdit } from "react-icons/fa";
+import { SlBasket } from "react-icons/sl";
 import Footer from "../components/Footer";
 import Group from "../assets/images/Group 94.svg"
 import Group1 from "../assets/images/Group 95.svg"
@@ -14,10 +16,9 @@ import Group3 from "../assets/images/Group 97.svg"
 import Group4 from "../assets/images/Group 98.svg"
 import Group5 from "../assets/images/Group 106.svg"
 import Group6 from "../assets/images/Group 107.svg"
-import Group7 from "../assets/images/Group 42.svg"
+import Group7 from "../assets/images/Rectangle 42.svg"
 
 const Product = () => {
-    // const [state, setState] = useState(false)
     const [count, setCount] = useState(0)
 
     function decrement() {
